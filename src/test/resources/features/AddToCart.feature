@@ -5,7 +5,6 @@ Feature: Add To Cart Process
 
 Scenario: Add item to cart
     Given I am on the shopping website homepage
-    And I have an empty shopping cart
     When I search for "parfum"
     And I select a "parfum" product from the search results
     And I click on the "Add to Cart" button
